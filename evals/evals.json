@@ -1,0 +1,31 @@
+{
+  "evals": [
+    {
+      "name": "broad_question_to_research_contract",
+      "prompt": "Use $scientific-research to turn the topic 'urban heat mitigation and public health outcomes' into a research plan.",
+      "success_criteria": [
+        "Creates a bounded research question and research contract",
+        "Separates assumptions from evidence needs",
+        "Identifies likely methods and safety or ethics constraints"
+      ]
+    },
+    {
+      "name": "hypothesis_portfolio_for_benchmark_study",
+      "prompt": "Use $scientific-research to design and rank candidate hypotheses for a benchmark study comparing retrieval methods in legal document search.",
+      "success_criteria": [
+        "Builds multiple candidate hypotheses or methods",
+        "Scores candidates on novelty, feasibility, evidence fit, risk, and expected information gain",
+        "Proposes reproducible evaluation metrics and data controls"
+      ]
+    },
+    {
+      "name": "manuscript_integrity_review",
+      "prompt": "Use $scientific-research to review a draft manuscript for unsupported claims, citation risks, methodological gaps, and missing AI-use disclosure.",
+      "success_criteria": [
+        "Findings lead with concrete risks",
+        "Flags unsupported claims and citation integrity issues",
+        "Requires AI-use disclosure for publishable output"
+      ]
+    }
+  ]
+}

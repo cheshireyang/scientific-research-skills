@@ -1,0 +1,4 @@
+interface:
+  display_name: "Scientific Research"
+  short_description: "Structured scientific research workflows from question to evidence, experiment plan, report, review, and disclosure."
+  default_prompt: "Use $scientific-research to plan and run a rigorous research workflow from a question to evidence and a report."
